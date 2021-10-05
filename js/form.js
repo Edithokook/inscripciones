@@ -31,7 +31,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 	*Dirección detallada:*%0A
 	${dirección}%0A
 	*Comprobante de pago:*%0A
-	${comprobante}%0A
+	${comprobante}`;
 
   if (servicio === "" || cliente === "" || correo === ""|| celular === ""|| dirección === ""|| comprobante === "") {
     resp.classList.add("fail");
